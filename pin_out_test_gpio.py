@@ -14,3 +14,4 @@ for i, pin in enumerate(pins):
         GPIO.output(pin,0)
         time.sleep(0.5)
 
+GPIO.cleanup()
